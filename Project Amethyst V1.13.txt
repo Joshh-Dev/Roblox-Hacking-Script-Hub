@@ -1,0 +1,76 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Project Amethyst (Made by Joshh#6439)", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("Back/Front Flip", "Makes you do gymnastics", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+    end)
+
+    MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
+        if state then
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+        else
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        end
+    end)
+
+    
+
+    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/pdagXKYt'),true))()
+    end)
+
+    MainSection:NewButton("Eclipse Hub", "Amazing Roblox Hub!", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/fwpFXL29'))()
+    end)
+
+    MainSection:NewButton("Vape V4 - Bedwars", "Bedwars Hacks", function()
+        loadstring(game:HttpGet(('loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()'),true))()
+    end)
+
+    MainSection:NewButton("Vedrox Hub", "Amazing Roblox Hub!", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/NATXXtUS'))()
+    end)
+
+    --LOCAL PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewSlider("Jumppower", "JUMP HIGH!!", 350, 50, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    OtherSection:NewButton("Fly", "Go to space!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/ESEvWc4b'),true))() 
+
+        Fly(true)
+    end)
+
+    PlayerSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+
+
+    --Other
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+
+    OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+    end)
+
+    OtherSection:NewButton("Professor Puddle's Hub", "Very cool hub!", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/wrzLbYCu'),true))() 
+
+        Fly(true)
+    end)
