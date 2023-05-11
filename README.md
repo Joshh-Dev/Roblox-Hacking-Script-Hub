@@ -1,3 +1,3 @@
 # Project-Amethyst
 Roblox Hack Script Hub
--- WARNING, THIS SCRIPT MAY NOT WORK FULLY BECAUSE OF WEBSITE ISSUES. PLEASE UNDERSTAND THAT THIS MAY NOT WORK FULLY INTENDED AND WE ARE NOT RESPONSIBLE IF YOU ARE BANNED.
+-- I'm sorry to say, but at this moment Byfron can detect the hub, don't use it from now on unless you want to be banned.
